@@ -1,0 +1,159 @@
+Absolutely. For brainstorming, I'd keep it very lightweight and structure the story around "FDE for everyone".
+Worksmith — Pitch Deck Brainstorm
+Table of Contents
+The Problem — Work is fragmented and repetitive
+The Insight — Small businesses need an FDE, not another SaaS tool
+The Solution — Worksmith
+How It Works — Discover → Build → Deploy → Improve
+What We Build — AI-powered workflows and internal tools
+Who We Serve — Founders, startups, small businesses
+Business Model — Project + recurring relationship
+Why Worksmith — FDE model + AI leverage
+Go-to-Market — Start narrow, expand through referrals
+Vision — The AI operating layer for small businesses
+1. The Problem
+Small businesses have too much work and too little leverage.
+Repetitive administrative work
+Data scattered across tools
+Manual copy/paste between systems
+Employees spending time on low-value tasks
+Existing software doesn't fit their unique workflows
+AI is powerful, but difficult to operationalize
+Core problem:
+Businesses don't need more software. They need their existing work to work better.
+2. The Insight
+The FDE model shouldn't only belong to Fortune 500 companies.
+Large organizations can afford engineers who deeply understand their operations.
+Small businesses usually can't.
+
+Worksmith brings the FDE model to everyone.
+
+3. The Solution
+Worksmith
+AI engineering for the way you actually work.
+We embed with businesses, understand how they operate, and build AI-powered systems around their workflows.
+
+Not another chatbot.
+
+Not another SaaS subscription.
+
+A team that makes your business more efficient.
+
+4. How It Works
+Discover
+Understand the business and identify bottlenecks.
+↓
+
+Build
+Engineer an AI-powered solution.
+↓
+
+Deploy
+Integrate it into the customer's existing workflow.
+↓
+
+Improve
+Continuously measure, iterate, and automate more.
+Human FDE + AI = leverage
+
+5. What We Build
+Potential examples:
+AI sales assistants
+Lead qualification
+Automated reporting
+Customer support workflows
+Document processing
+Email automation
+Internal knowledge systems
+CRM automation
+Scheduling & operations
+Custom AI agents
+Business intelligence dashboards
+The important point:
+We don't sell a fixed product. We solve the workflow.
+6. Who We Serve
+Three initial customer groups
+Entrepreneurs
+"I am the bottleneck."
+
+Startups
+
+"We need to move faster without hiring 10 more people."
+
+Small businesses
+
+"We have people doing repetitive work every day."
+
+Common denominator:
+
+High-value people doing low-value work.
+7. Business Model
+Potential model:
+Offering	Concept
+Discovery	Paid workflow audit
+Build	Fixed-fee implementation
+Operate	Monthly retainer
+Expand	Additional workflows
+
+Potential long-term model:
+Services → Recurring revenue → Productized solutions → Software
+
+8. Why Worksmith
+Traditional consultant
+Analyze → Recommend → Leave
+SaaS company
+Sell product → Customer adapts
+Worksmith
+Understand → Engineer → Deploy → Operate
+Our advantage is the combination of:
+
+FDE mindset + AI-native engineering + small-business focus
+
+9. Go-to-Market
+Start with high-touch, founder-led sales.
+Potential first channels:
+
+Founder networks
+Startup communities
+Local businesses
+Referrals
+Existing professional networks
+"AI workflow audit" as an entry product
+Land with one painful workflow.
+Then expand.
+
+One workflow → one customer → many workflows → long-term relationship
+10. Vision
+Today
+A team of FDEs helping businesses use AI.
+Tomorrow
+A library of reusable AI workflows.
+Eventually
+Worksmith becomes the AI operating layer for small businesses.
+The ambitious version of the vision:
+
+Every small business gets the engineering leverage of a world-class technical team.
+Financial Model — Brainstorm Structure
+I'd keep the first model very simple:
+Metric	Year 1	Year 2	Year 3
+FDEs	3–5	8–12	20+
+Customers	TBD	TBD	TBD
+Avg. project revenue	TBD	TBD	TBD
+Avg. monthly recurring revenue	TBD	TBD	TBD
+Project revenue	TBD	TBD	TBD
+Recurring revenue	TBD	TBD	TBD
+Total revenue	TBD	TBD	TBD
+FDE payroll	TBD	TBD	TBD
+Other operating costs	TBD	TBD	TBD
+Gross profit	TBD	TBD	TBD
+EBITDA	TBD	TBD	TBD
+
+The most important assumptions we'll eventually need to nail down are:
+How many FDEs are founding the company?
+Average FDE compensation.
+How many customers one FDE can support.
+Average initial project price.
+Monthly recurring/maintenance price.
+Customer acquisition cost.
+Average customer lifetime.
+Those six or seven numbers will basically determine whether Worksmith is a nice consulting business or has the potential to become a large technology company.

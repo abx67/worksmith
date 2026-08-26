@@ -1,0 +1,87 @@
+The business model I'd consider
+I'd make the initial engagement very concrete.
+Step 1 — Workflow audit
+Spend 1–2 weeks inside the customer's business.
+Understand:
+
+What software they use
+Where employees spend time
+What gets copied between systems
+What requires repetitive decisions
+What information is trapped in email/documents
+Where mistakes happen
+What the owner personally does every day
+Step 2 — Find the highest-value bottleneck
+Don't try to "AI-ify everything."
+Find something like:
+
+"Your sales team spends 30 hours/week manually qualifying leads."
+Then calculate:
+30 hours × $40/hour × 52 = $62,400/year
+
+If you can eliminate 70% of that work, suddenly your project has an obvious ROI.
+
+Step 3 — Build it
+This is where your FDE team shines.
+You integrate:
+
+LLMs
+APIs
+databases
+CRM
+email
+spreadsheets
+internal tools
+web apps
+automation
+agents
+into a workflow that actually works.
+Step 4 — Stay embedded
+This is the part I think could become your moat.
+Don't disappear after delivering software.
+
+Keep watching:
+
+"What's still annoying?"
+"What broke?"
+"What are people doing manually?"
+"What new process should we automate?"
+You're essentially becoming the company's external AI engineering team.
+And I think there's a really interesting long-term vision
+Initially:
+5 FDEs → 20 customers
+
+But over time you learn that the same problems appear repeatedly.
+
+For example:
+
+                    Your Studio
+                        │
+        ┌───────────────┼───────────────┐
+        ↓               ↓               ↓
+     Startup        Restaurant       Agency
+        │               │               │
+        ↓               ↓               ↓
+   Sales workflow   Operations      Client reporting
+        │               │               │
+        └───────────────┼───────────────┘
+                        ↓
+                 Reusable AI
+                  infrastructure
+
+
+
+
+
+
+
+Eventually you could turn your repeated solutions into your own software platform.
+That's where the business gets much more interesting.
+
+You start as an FDE studio.
+
+Then:
+
+Services → repeatable solutions → proprietary platform → SaaS
+
+That's a potentially powerful trajectory.
