@@ -20,8 +20,7 @@ import {
   Target,
   Rocket,
 } from "lucide-react";
-import { motion, useInView } from "framer-motion";
-import type { RefObject } from "react";
+import { motion } from "framer-motion";
 
 // ─── Reveal Wrapper ───────────────────────────────────────────────────────────
 
@@ -34,13 +33,6 @@ function Reveal({
   className?: string;
   delay?: number;
 }) {
-  const ref = useRef<RefObject<HTMLDivElement>>(null);
-  const [el, setEl] = useState<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    // Framer Motion useInView needs a real ref
-  }, []);
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 40 }}
@@ -900,6 +892,124 @@ function Footer() {
   );
 }
 
+// ─── Case Studies ─────────────────────────────────────────────────────────────
+
+function CaseStudies() {
+  const cases = [
+    {
+      initial: "F",
+      bgColor: "bg-emerald-500/10",
+      borderColor: "border-emerald-500/20",
+      textColor: "text-emerald-400",
+      name: "Fengshui",
+      tagline: "AI-powered fengshui analysis from any floor plan or photo",
+      built: "An AI image analysis engine that reads floor plans and interior photos, then generates room-by-room fengshui recommendations — turning hours of manual consultation into automated, instant insights.",
+      impacts: [
+        "Consultants save hours per client — results delivered in minutes, not days",
+        "Covers 6+ room types with tailored rules for bedrooms, kitchens, bathrooms and more",
+        "Combines fast static rules with GPT reasoning for nuanced, context-aware suggestions",
+      ],
+    },
+    {
+      initial: "S",
+      bgColor: "bg-amber-500/10",
+      borderColor: "border-amber-500/20",
+      textColor: "text-amber-400",
+      name: "StagePulse",
+      tagline: "Your casting opportunities, delivered daily — AI-curated from the industry's top sources",
+      built: "A fully automated agent that monitors Deadline, Variety, and casting platforms every day, filters for roles that match the actor, and delivers a personalized digest straight to their inbox.",
+      impacts: [
+        "Cuts hours of daily manual screening down to a single delivered email",
+        "Sources 3+ industry publications and casting boards without human intervention",
+        "Smart filtering surfaces only the roles that fit the actor's profile",
+      ],
+    },
+    {
+      initial: "O",
+      bgColor: "bg-rose-500/10",
+      borderColor: "border-rose-500/20",
+      textColor: "text-rose-400",
+      name: "OffBookly",
+      tagline: "Actors rehearse smarter — scripts auto-split into focused practice scenes",
+      built: "An AI-assisted rehearsal platform that ingests full scripts and auto-segments them into scenes, giving actors instant access to targeted practice material instead of reading through entire plays.",
+      impacts: [
+        "Eliminates tedious manual script breakdown — agents do it in seconds",
+        "Game-feel engagement design keeps actors practicing consistently between auditions",
+        "Works on any device so actors can rehearse on set, on the go, at home",
+      ],
+    },
+  ];
+
+  return (
+    <section className="py-32 relative bg-[#111827]/50">
+      <div className="max-w-7xl mx-auto px-6">
+        <Reveal>
+          <div className="text-center mb-20">
+            <span className="text-indigo-400 text-sm font-semibold uppercase tracking-widest">
+              Success Stories
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-white">
+              Small businesses,{" "}
+              <span className="bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">
+                engineered results
+              </span>
+            </h2>
+            <p className="text-xl text-slate-400 max-w-2xl mx-auto">
+              Real systems we&apos;ve shipped — automating work, surfacing opportunities, and giving small teams the leverage of a full engineering org.
+            </p>
+          </div>
+        </Reveal>
+
+        <div className="grid md:grid-cols-3 gap-6">
+          {cases.map((c, i) => (
+            <Reveal key={c.name} delay={i * 0.12}>
+              <article
+                className={`bg-[#1a2236] border ${c.borderColor} rounded-2xl p-8 h-full hover:bg-[#1e2a42] transition-all group`}
+              >
+                <div
+                  className={`w-12 h-12 rounded-xl ${c.bgColor} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}
+                >
+                  <span className={`text-xl font-black ${c.textColor}`}>
+                    {c.initial}
+                  </span>
+                </div>
+                <h3 className="text-xl font-semibold mb-1 text-white">
+                  {c.name}
+                </h3>
+                <p className={`text-sm ${c.textColor} mb-5`}>
+                  {c.tagline}
+                </p>
+                <p className="text-slate-400 text-sm leading-relaxed mb-6">
+                  {c.built}
+                </p>
+                <div className="border-t border-white/5 pt-5">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-3">
+                    Impact
+                  </p>
+                  <ul className="space-y-2">
+                    {c.impacts.map((impact) => (
+                      <li
+                        key={impact}
+                        className="flex items-start gap-2 text-slate-400 text-sm"
+                      >
+                        <CheckCircle2
+                          size={14}
+                          className={`${c.textColor} mt-0.5 shrink-0`}
+                        />
+                        {impact}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </article>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function Home() {
@@ -910,6 +1020,7 @@ export default function Home() {
       <Problem />
       <Process />
       <Services />
+      <CaseStudies />
       <WhoWeServe />
       <WhyWorksmith />
       <Vision />
