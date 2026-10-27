@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#fg)" opacity="0.1"/>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#10b981" stroke-width="2" opacity="0.3"/>
+  <!-- Compass rose -->
+  <g transform="translate(100,100)">
+    <!-- Main directional pointers -->
+    <polygon points="0,-60 10,-15 0,0 -10,-15" fill="#10b981"/>
+    <polygon points="0,60 10,15 0,0 -10,15" fill="#10b981" opacity="0.6"/>
+    <polygon points="60,0 15,-10 0,0 15,10" fill="#10b981" opacity="0.6"/>
+    <polygon points="-60,0 -15,-10 0,0 -15,10" fill="#10b981" opacity="0.6"/>
+    <!-- Diagonal pointers -->
+    <polygon points="42,-42 12,-8 0,0" fill="#10b981" opacity="0.4"/>
+    <polygon points="42,42 12,8 0,0" fill="#10b981" opacity="0.4"/>
+    <polygon points="-42,42 -12,8 0,0" fill="#10b981" opacity="0.4"/>
+    <polygon points="-42,-42 -12,-8 0,0" fill="#10b981" opacity="0.4"/>
+    <!-- Center circle -->
+    <circle r="12" fill="#10b981"/>
+    <circle r="6" fill="#0a0f1e"/>
+  </g>
+  <!-- Letter F -->
+  <text x="100" y="175" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#10b981" letter-spacing="2">FENGSHUI</text>
+</svg>
